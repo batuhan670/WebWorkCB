@@ -7,27 +7,39 @@ import {FaBars, FaTimes} from "react-icons/fa";
 
  const Navbar = () => {
 
-    const[click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
+    const[click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+
+    const[color, setColor] = useState(false);
+    const changeColor = ()  =>{
+        if(window.scrollY >=100){
+            setColor(true);
+        }else{
+            setColor(false)
+        }
+    };
+
+    window.addEventListener("scroll",changeColor);
     
     return (
-        <div className="header">
+        <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
                 <h1>WebWork.</h1>
             </Link>
-            <ul className={click?  "nav-menu.active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" :"nav-menu" }>
                 <li>
-                    <Link to={"/"}>Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to={"/News"}>News</Link>
+                    <Link to="/News">News</Link>
+                </li>
+                  <li>
+                    <Link to="/Mitarbeiter">Mitarbeiter</Link>
                 </li>
                 <li>
-                    <Link to={"/Kontakte"}>Kontakte</Link>
+                    <Link to="/Kontakte">Kontakt</Link>
                 </li>
-                <li>
-                    <Link to={"/Mitarbeiter"}>Mitarbeiter</Link>
-                </li>
+              
 
             </ul>
             <div className="hamburger" onClick=
@@ -39,7 +51,8 @@ import {FaBars, FaTimes} from "react-icons/fa";
 
                 <FaBars size={20} style={{color: 
                     "#fff"}}/>
-                )}</div>
+                )}
+         </div>
         </div>
     );
 };
