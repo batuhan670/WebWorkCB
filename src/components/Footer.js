@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="right">
                     <div className="social">
                         <h4>Über uns</h4>
-                        <p>Diese Webseite dient ausschließlich für ein Projekt und hat daher keinen verwendungszweck </p>
+                        <p>Diese Webseite dient ausschließlich für ein Projekt und hat daher keinen verwendungszweck. </p>
                         
                         <FaFacebook size={30} style={{
                             color: '#fff'
