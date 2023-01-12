@@ -11,7 +11,8 @@ export const News = () => {
       <Navbar/>
       <HeroImg2/>
       <Footer/>
-      <Footer/>
+      
+
     </div>
   )
 }
