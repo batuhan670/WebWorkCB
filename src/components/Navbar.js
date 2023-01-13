@@ -26,6 +26,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
             <Link to="/">
                 <h1>WebWork.</h1>
             </Link>
+            
             <ul className={click ? "nav-menu active" :"nav-menu" }>
                 <li>
                     <Link to="/">Home</Link>
