@@ -1,23 +1,22 @@
-import "./WorkCardStyles.css"
+import "./WorkStyles.css"
 
 import React from 'react'
-import pro1 from "../assets/istockphoto-1364358321-170667a.jpg"
 import { NavLink } from "react-router-dom"
 
-const WorkCard = () => {
+const WorkCard = (props) => {
 return(
     <div className="work-container">
         <h1 className="news-heading"></h1>
         <div className="news-container">
             <div className="news-card">
-                <img src={pro1} alt="image"/>
-                <h2 className="news-titel">News Titel</h2>
+                <img src={props.imgsrc} alt="image"/>
+                <h2 className="news-titel">{props.titel}</h2>
                 <div className="pro-details">
-                    <p>this is text</p>
+                    <p>{props.text}</p>
                     <div className="pro-btns">
-                        <NavLink to="url.com"
+                        <NavLink to={props.view}
                         className="btn">Weiter</NavLink>
-                         <NavLink to=""
+                         <NavLink to="url.com"
                         className="btn">Kontaktieren</NavLink>
                     </div>
                 

@@ -4,15 +4,14 @@ import Navbar from "../components/Navbar";
 
 import Footer from "../components/Footer";
 import HeroImg2 from '../components/HeroImg2';
-import WorkCard from '../components/WorkCard';
+import Work from '../components/Work';
 
 export const News = () => {
   return (
     <div>
       <Navbar/>
       <HeroImg2 heading="NEWS." text="Some of my most recent works"/>
-      <WorkCard/>
-      
+      <Work/>
       <Footer/>
       
 

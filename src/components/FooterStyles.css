@@ -2,6 +2,7 @@
     width: 100%;
     padding: 6rem 0;
     background-color: rgba(19, 19, 19, 0.8);
+    color: rgba(255, 255, 255, 1)
 }
 .footer-container {
     max-width: 1140px;

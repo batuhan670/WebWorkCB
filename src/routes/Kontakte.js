@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 
 import Footer from "../components/Footer";
 import HeroImg2 from '../components/HeroImg2';
+import Forms from '../components/Forms';
 
 export const Kontakte = () => {
   return (
@@ -11,6 +12,7 @@ export const Kontakte = () => {
      
       <Navbar/>
       <HeroImg2 heading="Kontakt" text=""/>
+      <Forms/>
       <Footer/>
     </div>
   )
