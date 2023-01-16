@@ -18,6 +18,9 @@ const Navbar = () => {
             setColor(false)
         }
     };
+    const [submenuActive, setSubmenuActive] = useState(false);
+    const activateSubMenu = () => setSubmenuActive(!submenuActive);
+
 
     window.addEventListener("scroll", changeColor);
 
@@ -41,21 +44,24 @@ const Navbar = () => {
                 <li>
                     <Link to="/News">News&Projekte</Link>
                 </li>
-                <li>
-                    <Link to="/Mitarbeiter">Mitarbeiter</Link>
-                </li>
-                <li>
-                    <Link to="/Kontakte">Kontakt</Link>
-                    <div className="submenu">
+                <li className="parentMenu">
+                    <a href="#" onClick={activateSubMenu}>Mitarbeiter</a>
+                    <div className={submenuActive ? "submenu active" : "submenu"}>
                         <ul>
                             <li>
-                                <a href="">Telefonnummer</a>
+                            <Link to="/Mitarbeiter">Vorstand</Link>
                             </li>
                             <li>
-                                <a href="">Email</a>
+                            <Link to="/Mitarbeiter">Team</Link>
                             </li>
                         </ul>
                     </div>
+                    
+                </li>
+                
+                <li>
+                    <Link to="/Kontakte">Kontakt</Link>
+
 
 
                 </li>

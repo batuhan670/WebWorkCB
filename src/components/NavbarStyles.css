@@ -33,8 +33,34 @@
     display: none;
 }
 
+
+.parentMenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.nav-menu.active {
+    display: block;
+}
+
+
+.submenu.active {
+    display: block;
+}
+
+
+
+
+
 @media screen and (max-width: 1040px) {
     .nav-menu {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -50,6 +76,7 @@
     }
 
     .nav-menu.active {
+        display: flex;
         left: 0;
 
 
@@ -67,17 +94,23 @@
     .hamburger {
         display: initial;
     }
-}
+    
+    .parentMenu {
+        position: relative;
+    }
 
-.submenu {
-    display: none;
+    .submenu {
+        position: relative;
+        top: 0rem;
+        left: 3rem;
+    }
+    .submenu li {
+        padding: 0rem 0;
 
-
-}
-
-.nav-menu.active:hover .submenu {
-    display: block;
-    position: absolute;
-    padding-right: 3rem;
+    }
+    .submenu li a {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }        
 
 }
