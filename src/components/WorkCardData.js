@@ -8,30 +8,31 @@ const NewsCardData = [
     {
         imgsrc: pro1,
         title: "Web Design",
-        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an",
+        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an.",
         view: "http://localhost:3000/"
 
     },
     {
+        imgsrc: pro4,
+        title: "Ganzheitliche digitale Transformation für eine Bank",
+        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an.",
+        view: "http://localhost:3000/"
+
+    },
+
+    {
         imgsrc: pro2,
-        title: "E Commerce Shop ",
-        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an",
+        title: "Full Funnel E-Commerce ",
+        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an.",
         view: "http://localhost:3000/"
 
     },
     {
         imgsrc: pro3,
-        title: "finaice",
-        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an",
+        title: "Digitale Leadagentur für einen Global Champion",
+        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an.",
         view: "http://localhost:3000/"
-    },
-    {
-        imgsrc: pro4,
-        title: "UI UX",
-        text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an",
-        view: "http://localhost:3000/"
-
     }
-]
 
+]
 export default NewsCardData;

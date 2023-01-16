@@ -1,4 +1,17 @@
-.worker-container p {
-    font-style: red;
+.worker-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 1rem;
+    max-width: 30vw;
+}
 
+
+.worker-container>* {
+    padding: 5px;
+}
+
+.worker-container>img {
+
+    border: solid black 1px;
+    border-radius: 10px;
 }

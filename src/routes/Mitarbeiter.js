@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import HeroImg2 from '../components/HeroImg2';
 import Worker from '../components/Worker';
 import ScrollButton from "../components/ScrollButton";
+import "./Mitarbeiter.css"
 
 
 class Mitarbeiter extends React.Component {
@@ -37,7 +38,7 @@ class Mitarbeiter extends React.Component {
       <div>
         <Navbar />
         <HeroImg2 heading="Mitarbeiter" text="ergfadsrg" />
-        <div className="worker-container">
+        <div className='flexWorker'>
           {this.state.users.data.map((val, ind) => {
             return (
               <Worker

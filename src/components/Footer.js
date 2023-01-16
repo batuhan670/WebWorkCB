@@ -2,6 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 import { FaFacebook, FaHome, FaInstagram, FaMailBulk, FaPhone, FaTwitter, } from "react-icons/fa"
+import { SiTeamviewer } from "react-icons/si";
 
 const Footer = () => {
 
@@ -59,7 +60,19 @@ const Footer = () => {
 
                             <a href="mailto:johannes.ehrhart@casablanca.at"> <strong>johannes.ehrhart@casablanca.at</strong></a>
                         </div>
+
                     </div>
+
+                    <div className="teamviewer">
+                        <SiTeamviewer size={25} style={{
+                            color: '#fff'
+                            , marginRight: "2rem"
+                        }} />
+                        <div>
+                            <a href="https://get.teamviewer.com">Fernwartung</a>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className="right">

@@ -1,0 +1,14 @@
+.carousel-root {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.control-arrow {
+    width: 100px;
+}
+
+
+.slideImg img {
+    height: 50%;
+    width: 50%;
+}

@@ -1,26 +1,29 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "./SlideshowStyles.css"
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import IntroImg from "../assets/photo-1474631245212-32dc3c8310c6.jpg";
+import Img1 from "../assets/Focus.png"
+import Img2 from "../assets/Dreams.jpg"
+import Img3 from "../assets/Teamworkbild.jpg"
 
 
 class Slideshow extends Component {
     render() {
         return (
-            <Carousel>
-                <div>
-                    <img src={IntroImg} alt="beschreibung"/>
-                    <p className="legend">Legend 1</p>
+            <Carousel showThumbs={false}>
+                <div className='slideImg'>
+                    <img src={Img1} alt="FOCUS" />
+
                 </div>
                 <div>
-                    <img src={IntroImg} alt="beschreibung"/>
-                    <p className="legend">Legend 2</p>
+                    <img src={Img2} alt="DREAMS" />
+
                 </div>
                 <div>
-                    <img src={IntroImg} alt="beschreibung"/>
-                    <p className="legend">Legend 3</p>
+                    <img src={Img3} alt="TEAMWORK" />
+
                 </div>
             </Carousel>
         );

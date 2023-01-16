@@ -11,7 +11,7 @@ export const News = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="NEWS und PROJEKTE." text="Some of my most recent works" />
+      <HeroImg2 heading="NEWS und PROJEKTE." text="we create the future" />
       <Work />
       <Footer />
       <ScrollButton />

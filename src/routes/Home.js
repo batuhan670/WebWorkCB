@@ -4,14 +4,16 @@ import HeroImg from "../components/HeroImg";
 import Footer from "../components/Footer";
 import ScrollButton from "../components/ScrollButton";
 import Slideshow from "../components/Slideshow";
+import Work from '../components/Work';
 
 const Home = () => {
     return (<div>
-        <Navbar/>
-        <HeroImg/>
-        <Slideshow/>    
-        <Footer/>
-        <ScrollButton/>
+        <Navbar />
+        <HeroImg />
+        <Work />
+        <Slideshow />
+        <Footer />
+        <ScrollButton />
     </div>
     )
 }
