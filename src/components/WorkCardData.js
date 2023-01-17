@@ -7,7 +7,7 @@ import pro4 from "../assets/gradient-ui-ux-background_23-2149052117.webp"
 const NewsCardData = [
     {
         imgsrc: pro1,
-        title: "Web Design gestaltung für Ihr Unternehmen ",
+        title: "Web Design Gestaltung für Ihr Unternehmen ",
         text: "Dieser Text dient ausschließlich für ein Projekt und bietet daher keine Dienstleistung an.",
         view: "http://localhost:3000/"
 
