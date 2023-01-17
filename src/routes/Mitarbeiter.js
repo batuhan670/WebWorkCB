@@ -37,7 +37,7 @@ class Mitarbeiter extends React.Component {
     return (
       <div>
         <Navbar />
-        <HeroImg2 heading="Mitarbeiter" text="ergfadsrg" />
+        <HeroImg2 heading="Mitarbeiter" text="Unser Team" />
         <div className='flexWorker'>
           {this.state.users.data.map((val, ind) => {
             return (

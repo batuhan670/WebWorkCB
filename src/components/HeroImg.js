@@ -15,7 +15,7 @@ const heroImg = () => {
         <p>Willkommen bei</p>
         <h1>WebWork.</h1>
         <div>
-          <Link to="/news" className="btn">News</Link>
+          <Link to="/news" className="btn">Projekte</Link>
           <Link to="/kontakte" className="btn btn-light">Kontakt</Link>
         </div>
       </div>

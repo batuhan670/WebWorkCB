@@ -4,9 +4,10 @@ import "./SlideshowStyles.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import Img1 from "../assets/Focus.png"
-import Img2 from "../assets/Dreams.jpg"
-import Img3 from "../assets/Teamworkbild.jpg"
+import Img1 from "../assets/breaking-news (6).jpg"
+import Img2 from "../assets/breaking-news (2).jpg"
+import Img3 from "../assets/breaking-news (3).jpg"
+import NewsCardData from './WorkCardData';
 
 
 class Slideshow extends Component {
@@ -15,6 +16,8 @@ class Slideshow extends Component {
             <Carousel showThumbs={false}>
                 <div className='slideImg'>
                     <img src={Img1} alt="FOCUS" />
+                   
+                    
 
                 </div>
                 <div>
@@ -25,6 +28,7 @@ class Slideshow extends Component {
                     <img src={Img3} alt="TEAMWORK" />
 
                 </div>
+                
             </Carousel>
         );
     }
