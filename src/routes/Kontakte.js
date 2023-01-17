@@ -12,7 +12,7 @@ export const Kontakte = () => {
     <div>
 
       <Navbar />
-      <HeroImg2 heading="Kontakt" text="Kontaktiere uns gleich jetz." />
+      <HeroImg2 heading="Kontakt" text="Rückmeldung innerhalb 24 Stunden." />
       <Forms />
       <Footer />
       <ScrollButton />
