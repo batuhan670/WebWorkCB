@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 import Img1 from "../assets/breaking-news (6).jpg"
 import Img2 from "../assets/breaking-news (2).jpg"
-import Img3 from "../assets/breaking-news (3).jpg"
+import Img3 from "../assets/breaking-news.jpg"
 import NewsCardData from './WorkCardData';
 
 
