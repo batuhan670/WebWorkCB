@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@react-email/body": "0.0.1",
     "@react-email/button": "0.0.5",
     "@react-email/html": "0.0.3",
@@ -15,6 +16,7 @@
     "aws-sdk": "^2.1295.0",
     "browser": "^0.2.6",
     "emailjs": "^4.0.1",
+    "formik": "^2.2.9",
     "icons": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
