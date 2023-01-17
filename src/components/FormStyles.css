@@ -1,4 +1,4 @@
-laben {
+label {
     color: white;
     margin-bottom: 0.5rem;
 
@@ -22,12 +22,4 @@ form textarea {
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
 
-}
-
-.form-control {
-    margin-bottom: 20px;
-}
-
-.error {
-    color: red;
 }

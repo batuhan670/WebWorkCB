@@ -12,7 +12,6 @@ const Home = () => {
         <HeroImg />
         <Slideshow />
         <Work />
-    
         <Footer />
         <ScrollButton />
     </div>

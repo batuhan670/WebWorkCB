@@ -16,8 +16,8 @@ class Slideshow extends Component {
             <Carousel showThumbs={false}>
                 <div className='slideImg'>
                     <img src={Img1} alt="FOCUS" />
-                   
-                    
+
+
 
                 </div>
                 <div>
@@ -28,7 +28,7 @@ class Slideshow extends Component {
                     <img src={Img3} alt="TEAMWORK" />
 
                 </div>
-                
+
             </Carousel>
         );
     }
