@@ -21,7 +21,7 @@ class Slideshow extends Component {
 
                 </div>
                 <div>
-                    <img src={Img2} alt="DREAMS" />
+                    <img src={Img2} alt="DREAM" />
 
                 </div>
                 <div>

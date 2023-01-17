@@ -7,8 +7,13 @@
     width: 100px;
 }
 
+.slideImg {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
 
 .slideImg img {
     height: 50%;
     width: 50%;
+
 }
