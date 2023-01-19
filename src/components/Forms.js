@@ -14,7 +14,7 @@ const Forms = () => {
     emailjs.sendForm('service_c6b2p35',
       'template_r6g7c06',
       form.current,
-      'lP4Snk0M4rN-FgwZHlVI1')
+      'e_uV2THf0e3Hl4jlx')
       .then((result) => {
         console.log(result.text);
         console.log("message sent")
