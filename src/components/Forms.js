@@ -11,10 +11,10 @@ const Forms = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_c6b2p35',
-      'template_r6g7c06',
+    emailjs.sendForm('service_xbg5q8e',
+      'template_uyo8jlf',
       form.current,
-      'e_uV2THf0e3Hl4jlx')
+      'BTYpjUKAi0ewDltjO')
       .then((result) => {
         console.log(result.text);
         console.log("message sent")
@@ -38,7 +38,7 @@ const Forms = () => {
         <input type="email" name="user_email" />
         <label>Nachricht</label>
         <label className='error' > </label>
-        <textarea name="nachricht" rows="6" placeholder='Tippe hier deine Nachricht ein' />
+        <textarea name="message" rows="6" placeholder='Tippe hier deine Nachricht ein' />
         <input type="submit" value="Senden" className='btn' />
       </form>
 
