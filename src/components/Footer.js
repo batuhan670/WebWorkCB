@@ -48,7 +48,7 @@ const Footer = () => {
                             , marginRight: "2rem"
                         }} />
                         <div>
-                            <a href="tel:+43 5418 5622"><strong>+43 5418 5622</strong></a>
+                            <a href="tel:+43 5418 5622"><strong>+43 664 5121405</strong></a>
                         </div>
                     </div>
                     <div className="email">
@@ -58,7 +58,7 @@ const Footer = () => {
                         }} />
                         <div>
 
-                            <a href="mailto:johannes.ehrhart@casablanca.at"> <strong>johannes.ehrhart@casablanca.at</strong></a>
+                            <a href="mailto:batuhandanisment@hotmail.com"> <strong>batuhandanisment@hotmail.com</strong></a>
                         </div>
 
                     </div>
